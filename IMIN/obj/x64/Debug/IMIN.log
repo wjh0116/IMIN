@@ -1,0 +1,270 @@
+﻿  正在验证源
+  正在将源远程复制到“10.21.16.127”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  Sandwich.cpp
+D:\code\IMIN\sfmt\SFMT.h(250,14): warning : conversion to ‘double’ from ‘long double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\sfmt\SFMT.h(250,14): warning :      return v * (1.0/18446744073709551616.0L);
+D:\code\IMIN\sfmt\SFMT.h(250,14): warning :             ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\code\IMIN\MeasureM.h(12,17): warning : conversion to ‘double’ from ‘long int’ may alter its value [-Wconversion]
+D:\code\IMIN\MeasureM.h(12,17): warning :   return r_usage.ru_maxrss / 1024.0 ;
+D:\code\IMIN\MeasureM.h(12,17): warning :          ~~~~~~~~^~~~~~~~~
+D:\code\IMIN\MeasureM.h(12,27): warning : conversion to ‘unsigned int’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\MeasureM.h(12,27): warning :   return r_usage.ru_maxrss / 1024.0 ;
+D:\code\IMIN\MeasureM.h(12,27): warning :          ~~~~~~~~~~~~~~~~~~^~~~~~~~
+D:\code\IMIN\memoryusage.h(51,27): warning : conversion to ‘double’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\memoryusage.h(51,27): warning :     vm_usage     = vsize / 1024.0;
+D:\code\IMIN\memoryusage.h(51,27): warning :                            ^~~~~~
+D:\code\IMIN\memoryusage.h(52,23): warning : conversion to ‘double’ from ‘long int’ may alter its value [-Wconversion]
+D:\code\IMIN\memoryusage.h(52,23): warning :     resident_set = rss * page_size_kb;
+D:\code\IMIN\memoryusage.h(52,23): warning :                    ~~~~^~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(59,19): warning : conversion to ‘unsigned int’ from ‘time_t {aka long int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(59,19): warning :          srand(time(NULL));
+D:\code\IMIN\infgraph.h(59,19): warning :                ~~~~^~~~~~
+D:\code\IMIN\infgraph.h(100,21): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(100,21): warning :    for (int i = 0; i < n; i++)
+D:\code\IMIN\infgraph.h(100,21): warning :                    ~~^~~
+D:\code\IMIN\infgraph.h(141,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(141,23): warning :      for (int i = 0; i < gT[x].size(); i++)
+D:\code\IMIN\infgraph.h(141,23): warning :                      ~~^~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(192,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(192,22): warning :     for (int i = 0; i < gT[x].size(); i++)
+D:\code\IMIN\infgraph.h(192,22): warning :                     ~~^~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(212,18): warning : conversion to ‘__gnu_cxx::__alloc_traits<std::allocator<int> >::value_type {aka int}’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(212,18): warning :     coverage[i] = deg;
+D:\code\IMIN\infgraph.h(212,18): warning :                   ^~~
+D:\code\IMIN\infgraph.h(237,28): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(237,28): warning :     if (degreePosition[deg] <= n - arg.k)
+D:\code\IMIN\infgraph.h(244,29): warning : conversion to ‘double’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(244,29): warning :    double __boundMin = 1.0 * sumTopk;
+D:\code\IMIN\infgraph.h(244,29): warning :                              ^~~~~~~
+D:\code\IMIN\infgraph.h(250,33): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(250,33): warning :     int newNumV = sortedNode.size();
+D:\code\IMIN\infgraph.h(250,33): warning :                   ~~~~~~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(276,19): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(276,19): warning :       if (startPos >= newNumV - arg.k) sumTopk--;
+D:\code\IMIN\infgraph.h(276,19): warning :           ~~~~~~~~~^~~~~~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(279,39): warning : conversion to ‘double’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(279,39): warning :     double __boundLast = 1.0 * (sumInf + sumTopk);
+D:\code\IMIN\infgraph.h(279,39): warning :                                ~~~~~~~~^~~~~~~~~~
+D:\code\IMIN\infgraph.h(292,18): warning : conversion to ‘__gnu_cxx::__alloc_traits<std::allocator<int> >::value_type {aka int}’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(292,18): warning :     coverage[i] = deg;
+D:\code\IMIN\infgraph.h(292,18): warning :                   ^~~
+D:\code\IMIN\infgraph.h(318,28): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(318,28): warning :     if (degreePosition[deg] <= n - arg.k)
+D:\code\IMIN\infgraph.h(325,29): warning : conversion to ‘double’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(325,29): warning :    double __boundMin = 1.0 * sumTopk;
+D:\code\IMIN\infgraph.h(325,29): warning :                              ^~~~~~~
+D:\code\IMIN\infgraph.h(331,33): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(331,33): warning :     int newNumV = sortedNode.size();
+D:\code\IMIN\infgraph.h(331,33): warning :                   ~~~~~~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(359,19): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(359,19): warning :       if (startPos >= newNumV - arg.k) sumTopk--;
+D:\code\IMIN\infgraph.h(359,19): warning :           ~~~~~~~~~^~~~~~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(362,39): warning : conversion to ‘double’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(362,39): warning :     double __boundLast = 1.0 * (sumInf + sumTopk);
+D:\code\IMIN\infgraph.h(362,39): warning :                                ~~~~~~~~^~~~~~~~~~
+D:\code\IMIN\infgraph.h(542,29): warning : conversion to ‘int’ from ‘std::vector<std::vector<int> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(542,29): warning :    int LRRnum = LhyperGT.size();
+D:\code\IMIN\infgraph.h(542,29): warning :                 ~~~~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(555,46): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(555,46): warning :      int ran = sfmt_genrand_uint32(&sfmtSeed) % Rnode.size();
+D:\code\IMIN\infgraph.h(555,46): warning :                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(560,24): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(560,24): warning :       for (int i = 0; i < n; i++)
+D:\code\IMIN\infgraph.h(560,24): warning :                       ~~^~~
+D:\code\IMIN\infgraph.h(576,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(576,23): warning :      for (int i = 0; i < ReachableNode.size(); i++)
+D:\code\IMIN\infgraph.h(576,23): warning :                      ~~^~~~~~~~~~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(590,31): warning : conversion to ‘int’ from ‘std::vector<std::vector<int> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(590,31): warning :    int LRRnum = LhyperGT_2.size();
+D:\code\IMIN\infgraph.h(590,31): warning :                 ~~~~~~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(605,46): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(605,46): warning :      int ran = sfmt_genrand_uint32(&sfmtSeed) % Rnode.size();
+D:\code\IMIN\infgraph.h(605,46): warning :                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(609,24): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(609,24): warning :       for (int i = 0; i < n; i++)
+D:\code\IMIN\infgraph.h(609,24): warning :                       ~~^~~
+D:\code\IMIN\infgraph.h(624,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(624,23): warning :      for (int i = 0; i < ReachableNode.size(); i++)
+D:\code\IMIN\infgraph.h(624,23): warning :                      ~~^~~~~~~~~~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(595,8): warning : unused variable ‘tmp’ [-Wunused-variable]
+D:\code\IMIN\infgraph.h(595,8): warning :     int tmp = 0;
+D:\code\IMIN\infgraph.h(595,8): warning :         ^~~
+D:\code\IMIN\infgraph.h(654,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(654,22): warning :     for (int i = 0; i < gT[x].size(); i++)
+D:\code\IMIN\infgraph.h(654,22): warning :                     ~~^~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(667,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(667,22): warning :    for (auto i = 1; i <= k; i++) res += log(double(n - k + i) / i);
+D:\code\IMIN\infgraph.h(667,22): warning :                     ~~^~~~
+D:\code\IMIN\infgraph.h(686,26): warning : conversion to ‘double’ from ‘std::__iterator_traits<std::_Bit_iterator, void>::difference_type {aka long int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(701,26): warning : conversion to ‘double’ from ‘std::__iterator_traits<std::_Bit_iterator, void>::difference_type {aka long int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(727,31): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(727,31): warning :      double log2Prob = log2f(1 - p);
+D:\code\IMIN\infgraph.h(727,31): warning :                              ~~^~~
+D:\code\IMIN\infgraph.h(729,30): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(729,30): warning :      int startPos = log2f(prob) / log2Prob;
+D:\code\IMIN\infgraph.h(729,30): warning :                               ^
+D:\code\IMIN\infgraph.h(729,32): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(729,32): warning :      int startPos = log2f(prob) / log2Prob;
+D:\code\IMIN\infgraph.h(729,32): warning :                     ~~~~~~~~~~~~^~~~~~~~~~
+D:\code\IMIN\infgraph.h(734,72): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(734,72): warning :        int increment = log2f((sfmt_genrand_real1(&sfmtSeed) * 0.999999) + 0.000001) / log2Prob;
+D:\code\IMIN\infgraph.h(734,72): warning :                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+D:\code\IMIN\infgraph.h(734,84): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(734,84): warning :        int increment = log2f((sfmt_genrand_real1(&sfmtSeed) * 0.999999) + 0.000001) / log2Prob;
+D:\code\IMIN\infgraph.h(734,84): warning :                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+D:\code\IMIN\infgraph.h(742,71): warning : conversion to ‘float’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(742,71): warning :       int increment = log2f((sfmt_genrand_real1(&sfmtSeed) * 0.999999) + 0.000001) / log2Prob;
+D:\code\IMIN\infgraph.h(742,71): warning :                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+D:\code\IMIN\infgraph.h(742,83): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(742,83): warning :       int increment = log2f((sfmt_genrand_real1(&sfmtSeed) * 0.999999) + 0.000001) / log2Prob;
+D:\code\IMIN\infgraph.h(742,83): warning :                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+D:\code\IMIN\infgraph.h(706,8): warning : unused variable ‘flag’ [-Wunused-variable]
+D:\code\IMIN\infgraph.h(706,8): warning :    bool flag = false;//RR set�Ƿ񸲸�seed
+D:\code\IMIN\infgraph.h(706,8): warning :         ^~~~
+D:\code\IMIN\infgraph.h(777,16): warning : conversion to ‘double’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(777,16): warning :    while (sum < T)
+D:\code\IMIN\infgraph.h(777,16): warning :                 ^
+D:\code\IMIN\infgraph.h(784,13): warning : conversion to ‘double’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(784,13): warning :    num = num - sum + T;
+D:\code\IMIN\infgraph.h(784,13): warning :          ~~~~^~~~~
+D:\code\IMIN\infgraph.h(784,19): warning : conversion to ‘long long int’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(784,19): warning :    num = num - sum + T;
+D:\code\IMIN\infgraph.h(784,19): warning :          ~~~~~~~~~~^~~
+D:\code\IMIN\infgraph.h(785,18): warning : conversion to ‘double’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(785,18): warning :    return n * T / num * 1.0;
+D:\code\IMIN\infgraph.h(785,18): warning :                   ^~~
+D:\code\IMIN\infgraph.h(807,21): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(807,21): warning :    for (int i = 0; i < CB.size(); i++)
+D:\code\IMIN\infgraph.h(807,21): warning :                    ~~^~~~~~~~~~~
+D:\code\IMIN\infgraph.h(811,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(811,22): warning :     for (int j = 0; j < gT_reverse[v].size(); j++)
+D:\code\IMIN\infgraph.h(811,22): warning :                     ~~^~~~~~~~~~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(813,9): warning : unused variable ‘node’ [-Wunused-variable]
+D:\code\IMIN\infgraph.h(813,9): warning :      int node = gT_reverse[v][j];
+D:\code\IMIN\infgraph.h(813,9): warning :          ^~~~
+D:\code\IMIN\infgraph.h(822,21): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(822,21): warning :    for (int i = 0; i < CB.size(); i++) {
+D:\code\IMIN\infgraph.h(822,21): warning :                    ~~^~~~~~~~~~~
+D:\code\IMIN\infgraph.h(853,35): warning : conversion to ‘double’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(853,35): warning :    maxNumR= size_t(2.0 * Rnode.size() * pow2((1 - 1 / e) * sqrt(log(6.0 / delta)) + sqrt((1 - 1.0 / e) * (logcnk(n - rumorSet.size(), targetSize) + log(6.0 / delta)))) / OPT_L / pow2(epsilon)) + 1;
+D:\code\IMIN\infgraph.h(853,35): warning :                          ~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(855,35): warning : conversion to ‘double’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(855,35): warning :    const double a1 = log(numIter * 3.0 / delta);
+D:\code\IMIN\infgraph.h(855,35): warning :                                    ^~~
+D:\code\IMIN\infgraph.h(856,35): warning : conversion to ‘double’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(856,35): warning :    const double a2 = log(numIter * 3.0 / delta);
+D:\code\IMIN\infgraph.h(856,35): warning :                                    ^~~
+D:\code\IMIN\infgraph.h(865,26): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(865,26): warning :    for (auto idx = 0; idx < numIter; idx++)
+D:\code\IMIN\infgraph.h(865,26): warning :                       ~~~~^~~~~~~~~
+D:\code\IMIN\infgraph.h(869,90): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(869,90): warning :     int pre_subsize1 = generateCP_local_global(numR, arg, CP_num, subCP_num1, Uflag, Lflag);//CP1 and LRR1
+D:\code\IMIN\infgraph.h(869,90): warning :                                                                                           ^
+D:\code\IMIN\infgraph.h(869,90): warning : conversion to ‘int’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(869,90): warning : conversion to ‘int’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(871,92): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(871,92): warning :     int pre_subsize2 = generateCP_local_global_2(numR, arg, CP_num, subCP_num2, Uflag, Lflag);//CP2 and LRR2
+D:\code\IMIN\infgraph.h(871,92): warning :                                                                                             ^
+D:\code\IMIN\infgraph.h(871,92): warning : conversion to ‘int’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(871,92): warning : conversion to ‘int’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(881,36): warning : conversion to ‘int’ from ‘std::vector<std::vector<int> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(881,36): warning :      int CPset2_num = hyperGT_2.size();
+D:\code\IMIN\infgraph.h(881,36): warning :                       ~~~~~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(898,17): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(898,17): warning :       opim_num = numR;
+D:\code\IMIN\infgraph.h(898,17): warning :                  ^~~~
+D:\code\IMIN\infgraph.h(913,35): warning : conversion to ‘int’ from ‘std::vector<std::vector<int> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(913,35): warning :      int LRR2_num = LhyperGT_2.size();
+D:\code\IMIN\infgraph.h(913,35): warning :                     ~~~~~~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(914,31): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(914,31): warning :      infVldt = self_inf_cal_LRR(UB_seedSet, LRR2_num);
+D:\code\IMIN\infgraph.h(914,31): warning :                ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(946,36): warning : conversion to ‘double’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(946,36): warning :    maxNumR = size_t(2.0 * Rnode.size() * pow2((1 - 1 / e) * sqrt(log(6.0 / delta)) + sqrt((1 - 1.0 / e) * (logcnk(n - rumorSet.size(), targetSize) + log(6.0 / delta)))) / OPT_L / pow2(epsilon)) + 1;
+D:\code\IMIN\infgraph.h(946,36): warning :                           ~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(948,35): warning : conversion to ‘double’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(948,35): warning :    const double a1 = log(numIter * 3.0 / delta);
+D:\code\IMIN\infgraph.h(948,35): warning :                                    ^~~
+D:\code\IMIN\infgraph.h(949,35): warning : conversion to ‘double’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(949,35): warning :    const double a2 = log(numIter * 3.0 / delta);
+D:\code\IMIN\infgraph.h(949,35): warning :                                    ^~~
+D:\code\IMIN\infgraph.h(956,26): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(956,26): warning :    for (auto idx = 0; idx < numIter; idx++)
+D:\code\IMIN\infgraph.h(956,26): warning :                       ~~~~^~~~~~~~~
+D:\code\IMIN\infgraph.h(960,90): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(960,90): warning :     int pre_subsize1 = generateCP_local_global(numR, arg, CP_num, subCP_num1, Uflag, Lflag);//CP1 and LRR1
+D:\code\IMIN\infgraph.h(960,90): warning :                                                                                           ^
+D:\code\IMIN\infgraph.h(960,90): warning : conversion to ‘int’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(960,90): warning : conversion to ‘int’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(962,92): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(962,92): warning :     int pre_subsize2 = generateCP_local_global_2(numR, arg, CP_num, subCP_num2, Uflag, Lflag);//CP2 and LRR2
+D:\code\IMIN\infgraph.h(962,92): warning :                                                                                             ^
+D:\code\IMIN\infgraph.h(962,92): warning : conversion to ‘int’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(962,92): warning : conversion to ‘int’ from ‘long long int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(972,36): warning : conversion to ‘int’ from ‘std::vector<std::vector<int> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(972,36): warning :      int CPset2_num = hyperGT_2.size();
+D:\code\IMIN\infgraph.h(972,36): warning :                       ~~~~~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(989,17): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(989,17): warning :       opim_num = numR;
+D:\code\IMIN\infgraph.h(989,17): warning :                  ^~~~
+D:\code\IMIN\infgraph.h(1004,35): warning : conversion to ‘int’ from ‘std::vector<std::vector<int> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\code\IMIN\infgraph.h(1004,35): warning :      int LRR2_num = LhyperGT_2.size();
+D:\code\IMIN\infgraph.h(1004,35): warning :                     ~~~~~~~~~~~~~~~^~
+D:\code\IMIN\infgraph.h(1005,31): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\infgraph.h(1005,31): warning :      infVldt = self_inf_cal_LRR(UB_seedSet, LRR2_num);
+D:\code\IMIN\infgraph.h(1005,31): warning :                ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+D:\code\IMIN\infgraph.h(1041,21): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\infgraph.h(1041,21): warning :    for (int i = 0; i < CB.size(); i++) {
+D:\code\IMIN\infgraph.h(1041,21): warning :                    ~~^~~~~~~~~~~
+D:\code\IMIN\Sandwich.h(71,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\code\IMIN\Sandwich.h(71,22): warning :     for (int i = 0; i < g.gT[node].size(); i++)
+D:\code\IMIN\Sandwich.h(71,22): warning :                     ~~^~~~~~~~~~~~~~~~~~~
+D:\code\IMIN\Sandwich.h(47,10): warning : unused variable ‘total_spread’ [-Wunused-variable]
+D:\code\IMIN\Sandwich.h(47,10): warning :    double total_spread = 0;
+D:\code\IMIN\Sandwich.h(47,10): warning :           ^~~~~~~~~~~~
+D:\code\IMIN\Sandwich.h(88,7): warning : unused variable ‘CPnum’ [-Wunused-variable]
+D:\code\IMIN\Sandwich.h(88,7): warning :    int CPnum = 10000;
+D:\code\IMIN\Sandwich.h(88,7): warning :        ^~~~~
+D:\code\IMIN\infgraph.h(1023,10): warning : ‘opim_num’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+D:\code\IMIN\infgraph.h(1023,10): warning :    return opim_num;
+D:\code\IMIN\infgraph.h(1023,10): warning :           ^~~~~~~~
+D:\code\IMIN\infgraph.h(932,10): warning : ‘opim_num’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+D:\code\IMIN\infgraph.h(932,10): warning :    return opim_num;
+D:\code\IMIN\infgraph.h(932,10): warning :           ^~~~~~~~
+  SFMT.c
+D:\code\IMIN\sfmt\SFMT.h(250,14): warning : conversion to ‘double’ from ‘long double’ may alter its value [-Wfloat-conversion]
+D:\code\IMIN\sfmt\SFMT.h(250,14): warning :      return v * (1.0/18446744073709551616.0L);
+D:\code\IMIN\sfmt\SFMT.h(250,14): warning :             ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\code\IMIN\sfmt\SFMT.c(171,8): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\code\IMIN\sfmt\SFMT.c(171,8): warning :   inner ^= psfmt32[idxof(i)] & parity[i];
+D:\code\IMIN\sfmt\SFMT.c(171,8): warning :         ^~
+D:\code\IMIN\sfmt\SFMT.c(171,11): warning : conversion to ‘int’ from ‘uint32_t {aka unsigned int}’ may change the sign of the result [-Wsign-conversion]
+D:\code\IMIN\sfmt\SFMT.c(171,11): warning :   inner ^= psfmt32[idxof(i)] & parity[i];
+D:\code\IMIN\sfmt\SFMT.c(171,11): warning :            ^~~~~~~
+D:\code\IMIN\sfmt\SFMT.c(348,6): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\code\IMIN\sfmt\SFMT.c(348,6): warning :       + i;
+D:\code\IMIN\sfmt\SFMT.c(348,6): warning :       ^
+D:\code\IMIN\sfmt\SFMT.c(346,22): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\code\IMIN\sfmt\SFMT.c(346,22): warning :   psfmt32[idxof(i)] = 1812433253UL * (psfmt32[idxof(i - 1)]
+D:\code\IMIN\sfmt\SFMT.c(346,22): warning :                       ^~~~~~~~~~~~
+D:\code\IMIN\sfmt\SFMT.c(389,7): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\code\IMIN\sfmt\SFMT.c(389,7): warning :      r += key_length;
+D:\code\IMIN\sfmt\SFMT.c(389,7): warning :        ^~
+D:\code\IMIN\sfmt\SFMT.c(398,19): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\code\IMIN\sfmt\SFMT.c(398,19): warning :   r += init_key[j] + i;
+D:\code\IMIN\sfmt\SFMT.c(398,19): warning :                    ^
+D:\code\IMIN\sfmt\SFMT.c(407,4): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\code\IMIN\sfmt\SFMT.c(407,4): warning :   r += i;
+D:\code\IMIN\sfmt\SFMT.c(407,4): warning :     ^~
+D:\code\IMIN\sfmt\SFMT.c(416,4): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\code\IMIN\sfmt\SFMT.c(416,4): warning :   r -= i;
+D:\code\IMIN\sfmt\SFMT.c(416,4): warning :     ^~
+D:\code\IMIN\sfmt\SFMT.c(44,21): warning : ‘sse2_param_mask’ defined but not used [-Wunused-const-variable=]
+D:\code\IMIN\sfmt\SFMT.c(44,21): warning :  static const w128_t sse2_param_mask = {{SFMT_MSK1, SFMT_MSK2,
+D:\code\IMIN\sfmt\SFMT.c(44,21): warning :                      ^~~~~~~~~~~~~~~
+  正在链接对象
+  IMIN.vcxproj -> D:\code\IMIN\bin\x64\Debug\IMIN.out
