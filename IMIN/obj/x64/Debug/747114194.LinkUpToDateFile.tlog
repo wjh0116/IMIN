@@ -1,1 +1,0 @@
-g++ -o "/home/wangjinghao/IMIN/bin/x64/Debug/IMIN.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/wangjinghao/IMIN/obj/x64/Debug/Sandwich.o /home/wangjinghao/IMIN/obj/x64/Debug/SFMT.o
