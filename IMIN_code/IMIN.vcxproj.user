@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <RemoteDebuggerWorkingDirectory>/home/wangjinghao/IMIN</RemoteDebuggerWorkingDirectory>
-    <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
-    <RemoteDebuggerCommandArguments>-dataset dataset/Twitter -k 10 -model IC -is_subsim 0 -rumorNum 10 -algo Sandwich -epsilon 0.2 -gamma 0.1 -beta 0.1  -is_largeInfluence 1</RemoteDebuggerCommandArguments>
-  </PropertyGroup>
-</Project>
