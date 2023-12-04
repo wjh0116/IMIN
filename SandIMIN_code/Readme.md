@@ -1,6 +1,6 @@
 # SandIMIN/SandIMIN-
 
-   This project implements the OPIM and OPIM-C algorithms for the following paper:
+   This project implements the SandIMIN and SandIMIN- algorithms for the following paper:
    <ul>
     <li>Jinghao Wang, Yanping Wu, Xiaoyang Wang, Ying Zhang, Lu Qin, Wenjie Zhang, Xuemin Lin, "Efficient Influence Minimization via Node Blocking", 2024.</li>
     </ul>
