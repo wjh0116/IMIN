@@ -8,7 +8,7 @@
 ## Dataset
    
 
-All the datasets in this paer can be downloaded in <strong>SNAP</strong>.
+All the datasets in this paper can be downloaded in <strong>SNAP</strong>.
 
 ## Compile 
 
